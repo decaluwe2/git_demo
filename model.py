@@ -32,7 +32,9 @@ def Derivative(t, SV, p):
 
     "Initizlize the derivative vector:"
     dSVdt = np.zeros_like(SV)
-
+    
+    for i in np.arange(p['ny'):
+        print(i)
 
     return dSVdt
 
